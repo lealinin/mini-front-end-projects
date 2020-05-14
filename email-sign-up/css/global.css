@@ -58,3 +58,21 @@ label {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+input[type],
+button {
+  border: none;
+  margin: 0;
+  font: inherit;
+  line-height: 1;
+  padding: 0.8rem;
+  padding: var(--metric-interaction-padding);
+  outline-offset: -1px;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  input[type],
+  button {
+    border: 1px solid;
+  }
+}
