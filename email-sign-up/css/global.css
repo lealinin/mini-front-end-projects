@@ -111,3 +111,16 @@ button {
   width: 1px;
   white-space: nowrap;
 }
+
+/**
+* SIGNUP COMPONENT
+*/
+.signup {
+  max-width: 20rem;
+}
+
+.signup__form + .signup__alert {
+  --flow-space: 1rem;
+}
+
+
