@@ -123,4 +123,19 @@ button {
   --flow-space: 1rem;
 }
 
+/**
+* INLINE FIELD CONTROL COMPONENT
+*/
+.inline-field-control {
+  --flow-space: 0.5rem;
+  display: flex;
+  box-shadow: 0 2px 10px var(--color-shadow);
+}
+
+.inline-field-control input {
+  flex: auto;
+}
+
+
+
 
