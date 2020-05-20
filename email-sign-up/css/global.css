@@ -136,6 +136,17 @@ button {
   flex: auto;
 }
 
+/**
+* BUTTON COMPONENT
+*/
+.button {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  min-width: 3.5rem;
+  cursor: pointer;
+}
+
 
 
 
