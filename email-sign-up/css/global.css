@@ -155,6 +155,49 @@ button {
   transform: translateY(1px);
 }
 
+/**
+* ALERT COMPONENT
+*/
+.alert {
+  --alert-text: var(--color-text);
+  --alert-bg: var(--color-bg);
+
+  display: flex;
+  align-items: flex-start;
+  background: var(--alert-bg);
+  color: var(--alert-text);
+  border: 1px solid;
+  padding: var(--metric-box-padding);
+  margin-top: 1rem;
+  animation: slide-up 250ms ease;
+}
+
+.alert[data-state='error'] {
+  --alert-text: var(--color-error);
+  --alert-bg: var(--color-error-bg);
+}
+
+.alert[data-state='success'] {
+  --alert-text: var(--color-success);
+  --alert-bg: var(--color-success-bg);
+}
+
+.alert__icon {
+  font-size: 1.6em;
+  flex-shrink: 0;
+}
+
+.alert__content {
+  padding-left: 0.8rem;
+}
+
+.alert__content b {
+  display: block;
+}
+
+
+
+
 
 
 
